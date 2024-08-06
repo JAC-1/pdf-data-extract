@@ -1,0 +1,8 @@
+{
+  "include": ["src"],
+  "exclude": ["tests"],
+  "strict": true,
+  "venvPath": ".",
+  "venv": ".venv",
+  "reportMissingTypeStubs": false
+}

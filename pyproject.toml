@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pdf-summarizer"
+version = "0.1.0"
+description = ""
+authors = ["JAC-1 <79427501+JAC-1@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+anthropic = "^0.31.2"
+pdf2image = "^1.17.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
